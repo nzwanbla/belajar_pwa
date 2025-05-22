@@ -60,9 +60,9 @@
         </script>
 
         <script>
-        if ('service-worker' in navigator) {
+        if ('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
-                navigator.serviceWorker.register('service-worker.js');
+                navigator.serviceWorker.register('serviceWorker.js');
             });
         }
 </script>
